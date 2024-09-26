@@ -4,7 +4,7 @@
 if ! pacman -Q rustup &> /dev/null; then
   # Install Rustup
   sudo pacman -S rustup
-  rustup default
+  rustup default stable
 fi
 
 # Compile and install the binary using Cargo
