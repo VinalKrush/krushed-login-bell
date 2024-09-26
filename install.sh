@@ -11,3 +11,5 @@ fi
 cargo build --release
 touch /usr/bin/krushed-login-bell
 cp target/release/krushed-login-bell /usr/bin/krushed-login-bell
+
+krushed-login-bell
